@@ -13,3 +13,9 @@ tic
 result = integral_trapezoid( fun, low_limit, up_limit, no_splits );
 toc
 fprintf( 'Trapezoidal area= %f',result)
+%% Buid in code
+% x=[0:1.0000e-07:10];
+% tic
+% y=(sin(4*sqrt(x))+5.1565399);
+% z=trapz(x,y)
+% toc
