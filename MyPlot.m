@@ -1,5 +1,5 @@
 function MyPlot(GG)
-fplot(GG, [0, 2.5],'k','LineWidth', 1.0);
+fplot(GG,'k','LineWidth', 1.0);
 hold on
 grid on
 xlim([0,2.5]);
