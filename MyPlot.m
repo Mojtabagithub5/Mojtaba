@@ -10,5 +10,5 @@ xlabel('Frequency Ratio $$r=\frac{f}{f_{n}}$$','FontUnits','points','interpreter
 print -depsc2 Mojtaba_plot.eps
 print -dpdf Mojtaba_plot.pdf
 hold off
-end 
+end
 
